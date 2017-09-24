@@ -1,0 +1,25 @@
+{
+  "name": "openvpn-cli-wrapper",
+  "version": "1.0.0",
+  "description": "A Javascript/Typescript wrapper to manage VPN connections using OpenVPN command line instructions.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm/npm.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register test/*.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^2.2.43",
+    "@types/node": "^8.0.28",
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2"
+  }
+}
