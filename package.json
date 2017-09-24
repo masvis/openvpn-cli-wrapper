@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/npm/npm.git"
+    "url": "https://github.com/masvis/openvpn-cli-wrapper"
   },
   "scripts": {
     "build": "tsc",
