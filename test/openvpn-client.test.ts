@@ -24,11 +24,11 @@ describe('OpenVPN should connect correctly', () => {
         const config = importVariables("openVPNConfigurations");
         assert.ok(
             fs.existsSync(config.folder),
-            'vpn configuration folder not found at path: ' + config.folder
+            'VPN configuration folder not found at path: ' + config.folder
         );
         assert.ok(
             fs.existsSync(config.folder),
-            'vpn configuration file not found at path: ' + path.join(config.folder, config.fileName)
+            'VPN configuration file not found at path: ' + path.join(config.folder, config.fileName)
         );
 
         let disconnection: boolean = false;
@@ -40,7 +40,7 @@ describe('OpenVPN should connect correctly', () => {
         openVPNClient.events.on("data", (data) => console.log("New data received:" + data));
         openVPNClient.events.on("connected", () => {
             disconnection = true;
-            openVPNClient.disconnect()
+            openVPNClient.disconnect();
         });
         openVPNClient.events.on("disconnected", () => {
             if (disconnection)
