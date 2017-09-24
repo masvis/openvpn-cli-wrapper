@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "mocha -r ts-node/register test/*.test.ts"
+    "test": "mocha -r ts-node/register --config=test/test-config.json test/*.test.ts"
   },
   "dependencies": {},
   "devDependencies": {
@@ -19,6 +19,8 @@
     "@types/node": "^8.0.28",
     "chai": "^4.1.2",
     "mocha": "^3.5.3",
+    "nconf": "^0.8.4",
+    "optimist": "^0.6.1",
     "ts-node": "^3.3.0",
     "typescript": "^2.5.2"
   }

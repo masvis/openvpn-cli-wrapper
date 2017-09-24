@@ -1,0 +1,6 @@
+{
+  "openVPNConfigurations": {
+    "folder": "/home/developer-01/.vpn",
+    "fileName": "client.conf"
+  }
+}
