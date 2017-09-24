@@ -1,6 +1,6 @@
 {
   "name": "openvpn-cli-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Javascript/Typescript wrapper to manage VPN connections using OpenVPN command line instructions.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
