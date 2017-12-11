@@ -22,6 +22,6 @@
     "nconf": "^0.8.4",
     "optimist": "^0.6.1",
     "ts-node": "^3.3.0",
-    "typescript": "^2.5.2"
+    "typescript": "2.4.2"
   }
 }
